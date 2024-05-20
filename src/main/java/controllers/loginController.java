@@ -3,7 +3,7 @@ package controllers;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-public class holaMundoController {
+public class loginController {
 
     @FXML
     private Label lblMensaje;

@@ -5,7 +5,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.holaMundoController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.loginController">
    <children>
       <Button layoutX="274.0" layoutY="332.0" mnemonicParsing="false" onAction="#click" text="Nashe" />
       <Label layoutX="51.0" layoutY="46.0" prefHeight="17.0" prefWidth="130.0" text="Nombre" />
