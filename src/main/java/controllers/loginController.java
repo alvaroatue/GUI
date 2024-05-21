@@ -2,16 +2,18 @@ package controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
 public class loginController {
 
     @FXML
-    private Label lblMensaje;
+    private Button cancelBtn;
 
-    @FXML
-    void click(ActionEvent event) {
-        lblMensaje.setText("hola mundo");
+    public void cancelBtnOnAction (ActionEvent event)
+    {
+        Stage stage = (Stage) cancelBtn.getScene().getWindow();
+        stage.close();
+
     }
-
-        
 }

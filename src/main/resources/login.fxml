@@ -15,7 +15,7 @@
          <children>
             <ImageView fx:id="logoImage" fitHeight="400.0" fitWidth="228.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../Downloads/logoo.png" />
+                  <Image url="@../../main/java/images/logoo.png" />
                </image>
             </ImageView>
          </children>

@@ -18,8 +18,8 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        AnchorPane load = FXMLLoader.load(getClass().getResource(Paths.HOLA_MUNDO));
-        Scene scene =new Scene(load);
+        FXMLLoader loader = FXMLLoader.load(getClass().getResource("/Fxml/login.fxml"));
+        Scene scene =new Scene(loader.load());
         stage.setScene(scene);
         stage.show();
 
