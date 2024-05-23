@@ -4,7 +4,6 @@ import  java.io.Serializable;
 import java.util.Objects;
 
 public abstract class Usuario implements Auntenticable,Serializable{
-
     private String nombreUsuario;
     private String contrasena;
     private String nombre;
